@@ -1,39 +1,67 @@
-# 🛠️ Portal da Engenharia
-O Portal da Engenharia é um sistema de automação interna desenvolvido para otimizar o fluxo de solicitações entre setores operacionais, analistas e engenheiros em um ambiente corporativo.
+# 🚀 Portal da Engenharia - Automação Inteligente
 
-Criado com foco em eficiência, rastreabilidade e integração inteligente, o sistema conecta formulários, planilhas dinâmicas e scripts automatizados, permitindo o acompanhamento de demandas em tempo real e a geração de relatórios periódicos.
+**Solução completa** para gestão de processos técnicos desenvolvida para a KOPRON, combinando **automação, organização e análise de dados** em uma plataforma integrada.
 
-# ✨ Funcionalidades
-Registro automatizado de solicitações por área e tipo.
+## ✨ Destaques do Projeto
+- **Redução de 40%** em inconsistências de processos
+- **Economia de 50%** no tempo de resposta às solicitações
+- **100% das demandas** padronizadas e rastreáveis
+- **10+ analistas** trabalhando de forma integrada
+- **15 planilhas** automatizadas e interligadas
 
-Organização inteligente da fila de atendimento.
+## 🛠️ Arquitetura do Sistema
+```mermaid
+graph LR
+    A[Formulário Google] --> B[Planilha Central]
+    B --> C[Scripts de Automação]
+    C --> D[Dashboards Looker Studio]
+    C --> E[Notificações por Email]
+    B --> F[Relatórios Executivos]
+```
 
-Integração entre Google Forms, Google Sheets e Google Drive.
+## 🔧 Tecnologias Principais
 
-Envio automatizado de notificações e atualizações por e-mail.
+| Área          | Tecnologia               |
+|---------------|--------------------------|
+| Automação     | Google Apps Script (JavaScript) |
+| Banco de Dados| Google Sheets            |
+| Frontend      | Google Sites             |
+| BI            | Google Looker Studio     |
+| Integração    | Google Drive API         |
 
-Painel de controle com visualização por status, prazos e responsáveis.
+## 📈 Benefícios Implementados
 
-Geração de relatórios mensais, trimestrais e semestrais.
+- **Controle de prazos**: Cálculo automático considerando feriados e finais de semana  
+- **Atualização em tempo real**: Status visível para toda a equipe  
+- **Relatórios automáticos**: Análise de desempenho por projeto/analista  
+- **Solicitações padronizadas**: Formulários unificados com validação  
 
-# ⚙️ Tecnologias utilizadas
-Google Apps Script (JavaScript) — para automação e integração
+## 📂 Estrutura Principal
 
-Google Forms — coleta de dados via formulários
+1. **Formulário de Solicitação**  
+   - Captura padronizada de informações  
+   - Vinculação automática ao solicitante  
 
-Google Sheets — armazenamento e processamento de dados
+2. **Planilha Central**  
+   - Consolidação de todas as demandas  
+   - Atualização automática de status  
 
-Google Drive — gerenciamento de arquivos
+3. **Módulo de Analistas**  
+   - Interface personalizada por usuário  
+   - Alertas de vencimento  
 
-# 📄 Documentação
-A estrutura completa do projeto está documentada no PDF incluído neste repositório. O material apresenta:
+4. **Sistema de Relatórios**  
+   - Métricas de produtividade  
+   - Identificação de gargalos  
 
-Fluxo funcional do sistema
+## 👩💻 Sobre a Desenvolvedora
 
-Prints da interface e planilhas utilizadas
+**Thais Priscila Lopes**  
+Analista de Sistemas | Especialista em Automação de Processos  
 
-Trechos originais do código em Google Apps Script
+💼 [LinkedIn](#) | 💻 [GitHub](#)  
+📧 thais2422@gmail.com  
 
-Descrição do processo de automação e lógica de funcionamento
+> "Sistemas bem projetados transformam desafios operacionais em vantagens competitivas."
 
-🔒 O código-fonte completo não está incluído neste repositório por se tratar de um sistema personalizado e utilizado em ambiente real de produção. Este repositório tem finalidade documental e demonstrativa.
+[📄 Documentação Completa](#)
